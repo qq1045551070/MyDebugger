@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="调试器代码">
+      <UniqueIdentifier>{130903ce-82e9-461a-9b9f-9d0150051275}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="断点管理">
+      <UniqueIdentifier>{5566132b-a84c-4f65-8bc9-a1df9b292da5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="汇编引擎库">
+      <UniqueIdentifier>{f704a7c8-e0aa-4c08-91b7-4d1aced392e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="反汇编器">
+      <UniqueIdentifier>{b881e621-a451-4ae4-b02d-83a32c531be0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="调试符号加载器">
+      <UniqueIdentifier>{e57a9c47-996c-49b4-93d0-d0385e3c7685}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="反反调试">
+      <UniqueIdentifier>{a7269220-ff0f-4f98-b73e-8607f9c250cc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyDebugger.h">
+      <Filter>调试器代码</Filter>
+    </ClInclude>
+    <ClInclude Include="Keystone.h">
+      <Filter>汇编引擎库</Filter>
+    </ClInclude>
+    <ClInclude Include="BreakPoint.h">
+      <Filter>断点管理</Filter>
+    </ClInclude>
+    <ClInclude Include="BeaEngine.h">
+      <Filter>反汇编器</Filter>
+    </ClInclude>
+    <ClInclude Include="DbgSymbol.h">
+      <Filter>调试符号加载器</Filter>
+    </ClInclude>
+    <ClInclude Include="ReflectDebugging.h">
+      <Filter>反反调试</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MyDebugger.cpp">
+      <Filter>调试器代码</Filter>
+    </ClCompile>
+    <ClCompile Include="Keystone.cpp">
+      <Filter>汇编引擎库</Filter>
+    </ClCompile>
+    <ClCompile Include="BreakPoint.cpp">
+      <Filter>断点管理</Filter>
+    </ClCompile>
+    <ClCompile Include="BeaEngine.cpp">
+      <Filter>反汇编器</Filter>
+    </ClCompile>
+    <ClCompile Include="DbgSymbol.cpp">
+      <Filter>调试符号加载器</Filter>
+    </ClCompile>
+    <ClCompile Include="ReflectDebugging.cpp">
+      <Filter>反反调试</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

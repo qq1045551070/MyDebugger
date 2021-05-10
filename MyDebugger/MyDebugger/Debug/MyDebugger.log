@@ -1,0 +1,12 @@
+﻿  BeaEngine.cpp
+e:\windows病毒工程师学习笔记\个人项目\3. 调试器\mydebugger\mydebugger\beaengine.cpp(47): error C2664: “void ATL::CStringT<char,ATL::StrTraitATL<char,ATL::ChTraitsCRT<char>>>::Format(UINT,...)”: 无法将参数 1 从“const wchar_t [3]”转换为“const char *”
+  e:\windows病毒工程师学习笔记\个人项目\3. 调试器\mydebugger\mydebugger\beaengine.cpp(47): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+  BreakPoint.cpp
+  DbgSymbol.cpp
+  Keystone.cpp
+  MyDebugger.cpp
+e:\windows病毒工程师学习笔记\个人项目\3. 调试器\mydebugger\mydebugger\mydebugger.cpp(35): error C3861: “AfxGetMainWnd”: 找不到标识符
+e:\windows病毒工程师学习笔记\个人项目\3. 调试器\mydebugger\mydebugger\mydebugger.cpp(51): error C3861: “AfxGetMainWnd”: 找不到标识符
+e:\windows病毒工程师学习笔记\个人项目\3. 调试器\mydebugger\mydebugger\mydebugger.cpp(102): error C2059: 语法错误:“)”
+  ReflectDebugging.cpp
+  正在生成代码...
